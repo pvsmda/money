@@ -51,7 +51,7 @@ export function NewTransactionModal({
         <img src={closedImg} alt="Fechar modal" />
       </button>
       <Container onSubmit={handleCreateNewTransaction}>
-        <h2>Cadastar transação</h2>
+        <h2>Cadastrar transação</h2>
 
         <input
           type="text"
@@ -87,7 +87,7 @@ export function NewTransactionModal({
             isActive={type === "withdraw"}
             activeColor="red"
           >
-            <img src={outcomeImg} alt="Saáda" />
+            <img src={outcomeImg} alt="Saída" />
             <span>Saída</span>
           </RadioBox>
         </TransactionTypeContainer>
